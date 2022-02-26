@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <a href="" class="title">PLAYFLIX</a>
+            <a href="">Inicio</a>
+            <a href="">Jogos</a>
+            <a href="">DLCs</a>
+            <a href="">Top</a>
+        </nav>
+        <nav class="nav-menu-2">
+            <div><input type="text" id="fSearch" name="fSearch"/></div>
+            <a><img src="images/icons/account.svg"></a>
+        </nav>
+    </header>
+    <section>
+        <div class="slider">
+            <a class="card" href="#open-modal">
+                <img src="images/zelda_ocarina_of_time.jpg">
+                <div class="card-information">
+                    <h3>Zelda Ocarina of Time</h3>
+                    <p>R$ 100.00</p>
+                </div>
+            </a>
+        </div>
+        <div class="modal" id="open-modal">
+            <div id="modal-card">
+                <a href="#close"><img src="images/icons/close.svg"></a>
+                <header class="modal-header">
+                    <img id="modal-img" src="images/zelda_ocarina_of_time.jpg">
+                    <div>
+                        <h3 id="modal-title">Game Title</h3>
+                        <time id="release">0000-00-00</time>
+                    </div>
+                </header>
+                <div class="modal-description">
+                    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices eros in cursus turpis. Lacus viverra vitae congue eu consequat ac. Augue mauris augue neque gravida in fermentum et sollicitudin. Ut sem viverra aliquet eget sit amet tellus cras.</p>
+                    <p id="modal-price" class="price">R$ 100.00</p>
+                    <button id="modal-button">ORDER NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <footer>
+    </footer>
+</body>
+</html>
