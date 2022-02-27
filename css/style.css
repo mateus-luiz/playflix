@@ -98,15 +98,14 @@ body > section > div > a.card:hover div{
 }
 
 body > section > div.modal{
-    display: flex;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgba(50, 50, 50, 0.3);
-    opacity: 0;
-    pointer-events: none;
+    animation: blowUpModal;
 }
 
 body > section div.modal > div{
@@ -147,15 +146,6 @@ body > section div.modal > div > header.modal-header div > time{
     font-size: 12pt;
     font-weight: 300;
 }
-body > section div.modal > div a{
-    position: relative;
-    top: -10px;
-    right: -488px;
-}
-
-body > section div.modal > div a > img{
-    width: 20px;
-}
 
 body > section div.modal > div div.modal-description{
     display: grid;
@@ -195,4 +185,13 @@ body > section div.modal > div div.modal-description > button:hover{
 
 body > section div.modal > div div.modal-description > button:active{
     background-color: #ff1919a2;
+}
+
+@keyframes blowUpModal {
+    0% {
+      transform:scale(0);
+    }
+    100% {
+      transform:scale(1);
+    }
 }
