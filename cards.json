@@ -3,95 +3,101 @@
         [
             {
                 "id": 0,
-                "name": "Item 0",
-                "description": "Description do item",
-                "price": 100.00,
+                "name": "Zelda Ocarina of Time",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 200.70,
                 "date": "MM-DD-YYYY",
                 "image": "images/zelda_ocarina_of_time.jpg"
             },
             {
                 "id": 1,
-                "name": "Item 2",
-                "description": "Description do item 2",
-                "price": 150.00,
+                "name": "Castlevania SOTN",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 75.00,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/castlevania_symphony.jpg"
             },
             {
                 "id": 2,
-                "name": "Item 3",
-                "description": "Description do item 2",
-                "price": 150.00,
+                "name": "Super Mario World",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 50.00,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/mario_world.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Street Fighter II",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 110.55,
+                "date": "MM-DD-YYYY",
+                "image": "images/street_fighter.jpg"
+            },
+            {
+                "id": 4,
+                "name": "TARZAN",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 100.75,
+                "date": "MM-DD-YYYY",
+                "image": "images/tarzan_snes.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Donkey Kong Country",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 110.55,
+                "date": "MM-DD-YYYY",
+                "image": "images/donkey_kong.jpg"
             }
         ],
         [
             {
-                "id": 0,
-                "name": "Item 0",
-                "description": "Description do item",
-                "price": 100.00,
+                "id": 6,
+                "name": "Hollow Knight",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 200.70,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/hollow-knight.jpg"
             },
             {
-                "id": 1,
-                "name": "Item 2",
-                "description": "Description do item 2",
-                "price": 150.00,
+                "id": 7,
+                "name": "Ori The Blind Florest",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 75.00,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/ori.jpg"
             },
             {
-                "id": 2,
-                "name": "Item 3",
-                "description": "Description do item 2",
-                "price": 150.00,
+                "id": 8,
+                "name": "Blasphemous",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 50.00,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/blasphemous.jpg"
             },
             {
-                "id": 3,
-                "name": "Item 4",
-                "description": "Description do item 2",
-                "price": 120.00,
+                "id": 9,
+                "name": "Celeste",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 110.55,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
-            }
-        ],
-        [
-            {
-                "id": 0,
-                "name": "Item 0",
-                "description": "Description do item",
-                "price": 100.00,
-                "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/celeste.jpg"
             },
             {
-                "id": 1,
-                "name": "Item 2",
-                "description": "Description do item 2",
-                "price": 150.00,
+                "id": 10,
+                "name": "Dead Cells",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 100.75,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/dead_cells.jpg"
             },
             {
-                "id": 2,
-                "name": "Item 3",
-                "description": "Description do item 2",
-                "price": 150.00,
+                "id": 11,
+                "name": "Shovel Knight",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...",
+                "price": 110.55,
                 "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
-            },
-            {
-                "id": 3,
-                "name": "Item 4",
-                "description": "Description do item 2",
-                "price": 120.00,
-                "date": "MM-DD-YYYY",
-                "image": "images/zelda_ocarina_of_time.jpg"
+                "image": "images/shovel_knight.jpg"
             }
         ]
     ]

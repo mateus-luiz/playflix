@@ -19,48 +19,99 @@ body{
     font-family: var(--netflix-sans);
     font-weight: 400;
     box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
 }
 
-body > header, nav{
-    display: flex;
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body .header-menu{
+    position: fixed;
+    margin: 0 1.5rem;
     justify-content: space-between;
     align-items: center;
 }
 
-body > header > nav > a{
+body .header-menu, nav{
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+}
+body .header-menu, nav.menu-2{
+    display: flex;
+    right: 0;
+}
+nav a{
     display: flex;
     color: white;
-    font-size: 12pt;
+    font-size: 16pt;
     text-decoration: none;
     font-weight: 900;
     margin: 0 0.3rem;
 }
 
-body > header > nav > a:hover{
+nav a:hover{
     font-weight: 850;
-    color: rgb(160, 160, 160);
-
+    color: #a0a0a0;
+    cursor: pointer;
 }
  
-body > header > nav > a.title{
-    font-size: 16pt;
+nav a.title{
+    font-size: 18pt;
     color: red;
     font-weight: bolder;
     margin-right: 0.5rem;
 }
 
-body > header > nav > a > img{
+nav a > img{
     filter: invert(100%);
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.9rem;
+    height: 1.9rem;
+}
+nav > a > img:hover{
+    cursor: pointer;
+}
+nav > div > input{
+    font-size: 16pt;
 }
 
-body > section div.slider{
+div.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #141414;
+    width: 170px;
+}
+
+div.dropdown:hover nav.dropdown-content{
+    display: block;
+}
+.banner{
     display: flex;
-    margin: 50px 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 35vw;
+    background-size: cover;
+    background-image: url('../images/castlevania_symphony.jpg');
+    background-repeat: no-repeat;
 }
 
-body > section > div > a.card{
+div.slider{
+    display: flex;
+    margin: auto;
+    padding: 0 15px;
+    max-width: 100%;
+}
+
+div > a.card{
     display: flex;
     text-decoration: none;
     color: #fff;
@@ -73,44 +124,31 @@ body > section > div > a.card{
     transition: all 0.2s;
 }
 
-body > section > div > a.card img{
+div > a.card img{
     width: 235px;
     height: 175px;
     border-radius: 8px;
 }
 
-body > section > div a.card > div{
-    position: absolute;
-    width: 235px;
-    transform: translateY(80px);
-    font-size: 12pt;
-    font-weight: 900;
-    margin: 0 10px;
-    opacity: 0;
-}
-
-body > section > div> a.card:hover{
+div > a.card:hover{
     transform: scale(1.11, 1.11);
+    cursor: pointer;
 }
 
-body > section > div > a.card:hover div{
-    opacity: 1;
-}
-
-body > section > div.modal{
-    display: none;
+div.modal{
+    display:  none;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999999;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(50, 50, 50, 0.3);
-    animation: blowUpModal;
+    background-color: #3232324d;
 }
 
-body > section div.modal > div{
+div.modal > div{
     width: 500px;
-    height: 535px;
+    height: 550px;
     max-width: 100%;
     max-height: 100%;
     margin: auto;
@@ -118,17 +156,26 @@ body > section div.modal > div{
     background-color: #111;
 }
 
-body > section div.modal > div > header.modal-header{
+div.modal > div > a{
+    position: relative;
     display: flex;
-    flex-direction: column;
+    top: -5px;
+    right: -485px;
+    align-items: right;
 }
 
-body > section div.modal > div > header.modal-header img{
+div.modal > div > a img{
+    width: 20px;
+}
+
+header.modal-header img{
+    display: flex;
     width: 475px;
+    height: 275px;
     margin: 10px auto;
 }
 
-body > section div.modal > div > header.modal-header div{
+header.modal-header div{
     display: flex;
     width: 475px;
     justify-content: space-between;
@@ -137,61 +184,63 @@ body > section div.modal > div > header.modal-header div{
     font-family: var(--poppins);
 }
 
-body > section div.modal > div > header.modal-header div > h3{
+header.modal-header div > h3{
     font-size: 18pt;
     font-weight: 500;
 }
 
-body > section div.modal > div > header.modal-header div > time{
+header.modal-header div > time{
     font-size: 12pt;
     font-weight: 300;
 }
 
-body > section div.modal > div div.modal-description{
+div.modal-description{
     display: grid;
+    max-width: 100%;
 }
 
-body > section div.modal > div div.modal-description > p{
+div.modal-description > p{
     grid-column-start: 1;
     grid-column-end: 4;
     margin: 0 13px;
+    min-height: 100px;
     text-align: justify;
+    overflow: auto;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
-body > section div.modal > div div.modal-description > p.price{
-    display: flex;
+div.modal-description > p.price{
+    display: block;
     grid-column-start: 2;
     grid-column-end: 2;
+    min-height: 35px;
     grid-template-columns: auto;
     margin: 13px 2px;
     align-items: flex-end;
 }
 
-body > section div.modal > div div.modal-description > button{
+div.modal-description > button{
+    display: block;
     grid-column-start: 3;
     height: 35px;
     width: 100px;
+    max-width: 113px;
     margin: 13px 13px;
     border: 0;
+    align-items: right;
     background-color: #FF1919;
     color: #fff;
     border-radius: 4px;
     box-shadow: 0px 2px 4px #000;
 }
 
-body > section div.modal > div div.modal-description > button:hover{
+div.modal-description > button:hover{
     background-color: #ff1919c5;
 }
 
-body > section div.modal > div div.modal-description > button:active{
+div.modal-description > button:active{
     background-color: #ff1919a2;
-}
-
-@keyframes blowUpModal {
-    0% {
-      transform:scale(0);
-    }
-    100% {
-      transform:scale(1);
-    }
 }

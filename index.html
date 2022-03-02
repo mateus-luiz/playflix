@@ -9,41 +9,32 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-menu">
+    <header class="header-menu" id="header">
+        <nav class="menu">
             <a href="" class="title">PLAYFLIX</a>
             <a href="">Inicio</a>
             <a href="">Jogos</a>
             <a href="">DLCs</a>
             <a href="">Top</a>
         </nav>
-        <nav class="nav-menu-2">
+        <nav class="menu-2">
             <div><input type="text" id="fSearch" name="fSearch"/></div>
-            <a><img src="images/icons/account.svg"></a>
+            <div class="dropdown">
+                <a><img src="images/icons/account.svg"></a>
+                <nav class="dropdown-content">
+                    <a class="dropdown-btn">Perfil</a>
+                    <a class="dropdown-btn">Config</a>
+                    <a class="dropdown-btn">Logout</a>
+                </nav>
+            </div>
         </nav>
     </header>
+    <div class="banner"></div>
     <section id="card-area">
-        <div class="modal" id="modal">
-            <div id="modal-card">
-                <header class="modal-header">
-                    <img id="modal-img" src="images/zelda_ocarina_of_time.jpg">
-                    <div>
-                        <h3 id="modal-title">Game Title</h3>
-                        <time id="release">0000-00-00</time>
-                    </div>
-                </header>
-                <div class="modal-description">
-                    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices eros in cursus turpis. Lacus viverra vitae congue eu consequat ac. Augue mauris augue neque gravida in fermentum et sollicitudin. Ut sem viverra aliquet eget sit amet tellus cras.</p>
-                    <p id="modal-price" class="price">R$ 100.00</p>
-                    <button id="modal-button">ORDER NOW</button>
-                </div>
-            </div>
-        </div>
     </section>  
     <footer>
     </footer>
 
-    <script src=""></script>
-    <script src="scripts/cards.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
