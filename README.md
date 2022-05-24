@@ -1,5 +1,7 @@
 # PLAYFLIX
 
+https://mateus-luiz.github.io/playflix/
+
 ### PLAYFLIX is a website using NETFLIX design and layout as a base,
 
 ![image](https://user-images.githubusercontent.com/59563143/156286816-812e2123-4043-42e3-9781-26bce7368339.png)
